@@ -1,0 +1,20 @@
+.Search{
+    border-radius: 50px;
+    width: 150px;
+    text-align: center;
+    color:#a1d3d4   ;
+    border: 2px solid #a1d3d4;
+}
+
+.plus{
+    border-radius: 50px;
+    width: 25px;
+    border: 2px solid #2dd2b2;
+    color:aliceblue   ;
+    background-color:  #2dd2b2;
+}
+.CreateAccount{
+    border: 2px solid black;
+    color:aliceblue   ;
+    background-color:  #3878e1;
+}

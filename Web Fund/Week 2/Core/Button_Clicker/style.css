@@ -1,0 +1,132 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: beige;
+}
+
+
+#wrapper{
+    margin: 0% auto;
+    padding: 0px 10%; 
+    width: 100%;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+    width: 80%;
+    justify-content: space-between;
+    
+}
+#nav_title{
+    margin-left: 30%;
+}
+.nav-links{
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+    align-items: center;
+    width: 55%;
+    color:ghostwhite;
+}
+#search_bar{
+    width: 50%;
+    align-items: center;
+    margin-left: -50% ;
+}
+#btn_login{
+    width: 100px;
+    background-color: #2da2b7;
+    color:ghostwhite   ;
+    box-shadow: 10px 5px 5px #000000;
+}
+#definitions_lp{
+    display: grid;
+    width: 50%;
+    height:  100%;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 10px 20px;
+    padding: 10px 25px;
+    align-items: center;
+}
+.definition_1{
+    width: 100%;
+    grid-column: auto;
+    grid-row: 1;
+    background-color: aliceblue;
+    padding: 10px 25px;
+    background-color: ghostwhite;
+    border: solid 5px gainsboro;
+    
+    
+}
+
+.definition_1 h2,
+.definition_1 h4,
+.definition_1 h3{
+    text-align: center;
+    margin-left: -80%;
+}
+
+.definition_2{
+    width: 100%;
+    grid-column: auto;
+    grid-row: 2;
+    background-color: aliceblue;
+    padding: 10px 25px;
+    background-color: ghostwhite;
+    border: solid 5px gainsboro;
+    
+}
+
+.definition_2 h2,
+.definition_2 h4,
+.definition_2 h3{
+    text-align: center;
+    margin-left: -80%;
+}
+
+.text_decoration{
+    color: blue;
+    text-decoration: underline;
+}
+.definition_1 p,
+.definition_2 p{
+    margin-left: 25%;
+    margin-top: -15%;
+    text-decoration-thickness:2px;
+    font-size: large;
+    text-align: left;
+}
+.btn_likes{
+    width: 100px;
+    background-color: #ffd966;
+    color:ghostwhite   ;
+    box-shadow: 10px 5px 5px #000000;
+    padding: 10px 20px;
+    margin-top: 10%;
+}
+
+#new_definition{
+    width: 100%;
+    height: 50%;
+    grid-column: 2;
+    grid-row: 1;
+    background-color:aquamarine;
+    border: solid 5px gainsboro;
+    margin-left: 50%;
+    font-size: large;
+    text-align: center;
+    padding: 0px 25px;
+    margin-top: -35%;
+}
+
+
+#btn_new_def{
+    width: 100px;
+    background-color: #2da2b7;
+    color:ghostwhite   ;
+    box-shadow: 10px 5px 5px #000000;
+    
+}

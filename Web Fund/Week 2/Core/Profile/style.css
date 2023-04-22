@@ -1,0 +1,206 @@
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#wrapper{
+    margin: 0 auto;
+    width: 950px;
+    
+}
+
+.nav{
+    display: flex;
+    background-color: #333;
+    color: ghostwhite;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+.nav-title{
+    margin-left: 10px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+    align-items: center;
+    width: 45%;
+    color:ghostwhite;
+}
+
+.nav-links a {
+    color:gainsboro;
+    text-decoration: none;
+}
+.nav-links a.active{
+    color: ghostwhite;
+}
+.btn{
+    width: 100px;
+    background-color: #2da2b7;
+    color:ghostwhite   ;
+    box-shadow: 10px 5px 5px #000000;
+    margin-top: 25%;
+    margin-left: -25%
+}
+
+.main_profile{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+    margin: 0% auto;
+    position: relative;
+}
+
+.profile_header{
+    margin-top: 15%;
+    height: 100px;
+    background-color: #2da2b7;
+    
+}
+.user_bio{
+    height: 325px;
+    background-color: ghostwhite;
+    border: solid 5px gainsboro;
+    margin-top: -2%;
+    z-index: -1;
+    position: relative;
+}
+
+
+.profile_icon{
+    border-radius: 50%;
+    background-color: ghostwhite    ;
+    padding: 5px;
+    height: 100px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.user_bio h1,h3,p {
+    padding: 15px 25px;
+}
+.user_bio a{
+    padding: 5px 25px;
+}
+.mini_icon{
+    height: 25px;
+}
+
+.education{
+    display: flex;
+    align-items: center;
+    height: 150px;
+    background-color: ghostwhite;
+    border: solid 5px gainsboro;
+    padding: 0px 25px;
+    margin-top: 70px;
+}
+.education h2{
+    width: 365px ;
+    background-color: #333;
+    color:ghostwhite;
+    padding: 15px 28px;
+    z-index: 1;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: -3%;
+}
+
+
+.education p::first-line {
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+.education  p{
+    margin-top: 20%;
+}
+span.dates{
+    color: #858585;
+}
+
+.requests_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25px;
+    background-color: #2da2b7;
+    padding: 15px 25px;
+    color:ghostwhite;
+    margin-top: 5%;
+}
+
+    .requests_header p,
+    .connections_header p{
+    border-radius: 50%;
+    background-color:  #858585;
+    padding: 0px 20px;
+    margin-left: -5%;
+    
+}
+.requests{
+    height: 125px;
+    background-color: ghostwhite;
+    border: solid 5px gainsboro;
+    margin-top: -5%;
+    z-index: -1;
+    position: relative;
+    padding: 0px 25px;
+
+}
+.requests h2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -5%;
+}
+
+.image_s{
+    height: 35px;
+    border-radius: 50%;
+    margin-left: -5%;
+}
+.icons{
+    height: 30px;
+}
+.connections_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15%;
+    height: 25px;
+    background-color: #2da2b7;
+    padding: 15px 25px;
+    color:ghostwhite;
+}
+.connections{
+    height: 250px;
+    background-color: ghostwhite;
+    border: solid 5px gainsboro;
+    z-index: -1;
+    position: relative;
+    padding: 0px 25px;
+}
+
+.connections h2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: -15%;
+    padding: 0px 20px;
+}
+.connections_footer{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: ghostwhite;
+    border: solid 5px gainsboro;
+    padding: 0px 25px;
+}
+.connections_footer h3{
+    text-decoration: underline blue;
+    color: blue;
+}
